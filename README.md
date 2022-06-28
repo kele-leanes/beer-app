@@ -5,13 +5,13 @@
 
 <h4 align="center">An React Native app written in Typescript to see, share and add beer recipes.</h4>
 
-<p align="left">
+<p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#dependencies">Dependencies</a> •
 </p>
 
-![screenshot](url)
+![screenshot](https://user-images.githubusercontent.com/57466680/176173617-98af3d40-3bd3-4c70-967c-b42005165fd6.gif)
 
 ## Key Features
 
