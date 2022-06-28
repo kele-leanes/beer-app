@@ -35,3 +35,8 @@ export type Notification = {
   DocumentID: string;
   DocumentTitle: string;
 };
+
+export enum StorageKey {
+  NOTIFICATIONS = 'notifications',
+  DOCUMENTS = 'documents',
+}
