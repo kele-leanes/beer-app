@@ -36,6 +36,7 @@ $ cd ios && pod-install
 # Run the app
 $ yarn ios or yarn android
 ```
+
 You need this [repo](https://github.com/holdedlab/frontend-challenge) running locally to connect to the backend.
 
 > **Note**
@@ -51,6 +52,25 @@ $ adb -s {deviceName} reverse tcp:8080 tcp:8080
 # Run tests
 $ yarn test
 ```
+## Summary
+
+In order to avoid errors I started writing the app in TypeScript. I used to splice the code as much as is possible to get cleaner code and more maintainable. Is the reason why I use the following folder structure
+````
+component
+    components.tsx
+    index.ts
+    types.ts
+    hooks.ts
+    styles.ts
+```
+In the case of dependencies I tried the fewer as possible.
+* async-storage (It will be used for the offline support)
+* react-navigation (Used to create a root stack for the navigation, useful if app stars growing)
+* axios (Good option to make a better error handling and others benefits as Interceptors)
+* react-native-vector-icons (Used to show icons in SVG format. More performant and better image quality)
+
+Also I've implemented absolute paths in order to avoid long imports e.g: `../../../../Component/...` 
+
 
 ## Dependencies
 
