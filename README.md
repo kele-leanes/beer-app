@@ -34,7 +34,7 @@ $ yarn
 $ cd ios && pod-install
 
 # Run the app
-$ yarn ios //or yarn android
+$ yarn ios or yarn android
 ```
 You need this [repo](https://github.com/holdedlab/frontend-challenge) running locally to connect to the backend.
 
