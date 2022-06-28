@@ -7,7 +7,7 @@ import {
 } from '@react-navigation/native-stack';
 import { HomeScreen } from 'src/views';
 import { NotificationScreen } from 'src/views/NotificationScreen';
-import { Notification } from 'src/hooks/useNotifications';
+import { Notification } from 'src/types';
 
 export type RootStackParamList = {
   Documents: undefined;

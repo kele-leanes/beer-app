@@ -27,3 +27,11 @@ export enum ViewType {
   GRID = 'GRID',
   LIST = 'LIST',
 }
+
+export type Notification = {
+  Timestamp: string;
+  UserID: string;
+  UserName: string;
+  DocumentID: string;
+  DocumentTitle: string;
+};

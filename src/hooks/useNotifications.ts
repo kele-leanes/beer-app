@@ -1,13 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ws } from 'src/services/notifications';
-
-export type Notification = {
-  Timestamp: string;
-  UserID: string;
-  UserName: string;
-  DocumentID: string;
-  DocumentTitle: string;
-};
+import { Notification } from 'src/types';
 
 export const useNotifications = () => {
   const [notifications, setNotifications] = useState<Notification[]>([]);

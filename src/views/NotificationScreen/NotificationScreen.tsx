@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList } from 'react-native';
-import { Notification } from 'src/hooks/useNotifications';
 import { RootStackScreenProps } from 'src/navigation/RootStack';
+import { Notification } from 'src/types';
 import { NotificationItem } from './components/NotificationItem';
 
 export const NotificationScreen: React.FC<
