@@ -1,4 +1,4 @@
-export interface Document {
+export type Document = {
   Attachments: string[];
   Contributors: ContributorsType[];
   CreatedAt: string;
@@ -6,7 +6,7 @@ export interface Document {
   Title: string;
   UpdatedAt: string;
   Version: string;
-}
+};
 
 type ContributorsType = {
   ID: string;
