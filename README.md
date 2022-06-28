@@ -45,6 +45,13 @@ You need this [repo](https://github.com/holdedlab/frontend-challenge) running lo
 $ adb -s {deviceName} reverse tcp:8080 tcp:8080
 ```
 
+## How To Run Tests
+
+```bash
+# Run tests
+$ yarn test
+```
+
 ## Dependencies
 
 This software uses the following open source packages:
