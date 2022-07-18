@@ -5,8 +5,7 @@ import {
   NativeStackNavigationOptions,
   NativeStackScreenProps,
 } from '@react-navigation/native-stack';
-import { HomeScreen } from 'src/views';
-import { NotificationScreen } from 'src/views/NotificationScreen';
+import { HomeScreen, NotificationScreen } from 'src/views';
 import { Notification } from 'src/types';
 
 export type RootStackParamList = {
