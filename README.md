@@ -55,7 +55,7 @@ $ yarn test
 ## Summary
 
 In order to avoid errors I started writing the app in TypeScript. I used to splice the code as much as is possible to get cleaner code and more maintainable. Is the reason why I use the following folder structure
-````
+```
 component
     components.tsx
     index.ts
